@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "Macbook",
+        "price" : "900",
+        "count" : 0,
+        "image" : "macbook.png"
+    },
+    {
+        "name" : "Lenovo Ideapad",
+        "price" : "500",
+        "count" : 0,
+        "image" : "lenovo.avif"
+    },
+    {
+        "name" : "Razer Mouse",
+        "price" : "250",
+        "count" : 0,
+        "image" : "razer.png"
+    },
+    {
+        "name" : "Villa",
+        "price" : "7000",
+        "count" : 0,
+        "image" : "villa.png"
+    },
+    {
+        "name" : "Tekne",
+        "price" : "4000",
+        "count" : 0,
+        "image" : "tekne.png"
+    },
+    {
+        "name" : "Rolex Saat",
+        "price" : "6500",
+        "count" : 0,
+        "image" : "rolex.png"
+    }
+]

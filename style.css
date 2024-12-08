@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    transition: all .3s ease-in;
+}
+
+main {
+    width: 80%;
+    padding-left: 10%;
+}
+
+main .title {
+    text-align: center;
+}
+
+main .title h1 {
+    background-color: rgb(207, 113, 31);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main .currentMoney {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+main .currentMoney #money {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+main .currentMoney #money::after {
+    content: '₺';
+    margin-left: 5px;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+main .container .box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(207, 113, 31);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+main .container .box img {
+    height: 200px;
+    width: auto;
+}
+
+main .container .box .text h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+main .container .box .text h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+main .container .box .input button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(39, 130, 100);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+main .container .box .input button:hover {
+    background-color: white;
+    color: rgb(39, 130, 100);
+}
+
+main .container .box .input #item-count {
+    color: white;
+    font-size: 20px;
+}
