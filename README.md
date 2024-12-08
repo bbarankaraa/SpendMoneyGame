@@ -11,7 +11,7 @@ Make choices on how to spend the money. 💳 <br>
 Keep track of the remaining balance and try to avoid running out of money. ⚠️ <br> <br>
 ⚙️ Installation: <br> <br>
 Clone or download the repository. 📥 <br>
-Open the index.html file in your browser to start playing. 🌐 <br> <br>
+Open the index.html with Live Server in your browser to start playing. 🌐 <br> <br>
 🔧 Technologies Used: <br> <br>
 HTML <br>
 CSS <br>
